@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 10px 0 20px;
+  color: #333333;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 10px 0 20px;
+  color: #333333;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 10px;
+  color: #333333;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0 20px;
+  color: #333333;
+}
+
+p {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  margin: 0 0 30px;
+  color: #333333;
+}
+
+
+header {
+  padding: 60px 0;
+  text-align: center;
+  background: #f8f3ec;
+}
+
+header .logo {
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin-bottom: 0;
+  color: #00aad9;
+}
+
+header h2 {
+  max-width: 800px;
+  font-weight: 400;
+  color: #ff8f3a;
+  margin: 30px auto 30px;
+}
+
+main {
+  padding: 60px 0;
+}
+
+.videoSection {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.videoWrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: 0
+}
+
+.btnReadmore {
+  background: #ff8f3a;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 30ms ease-in-out;
+}
+
+.btnReadmore:hover {
+  background: #00aad9;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 30ms ease-in-out;
+}
+
+.testimonailSection {
+  padding: 40px 0;
+  background: rgba(0, 0, 0, .03);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.testimonailSection h3 {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.testimonailSection img {
+  border: 1px solid #efefef;
+  padding: 15px;
+  border-radius: 10px;
+}
