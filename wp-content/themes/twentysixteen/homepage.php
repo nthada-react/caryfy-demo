@@ -17,7 +17,41 @@ if($landingPage){
     ?>
    <?php echo $landingPage['home_page']; ?>
 <?php } ?>
-        <!-- <div  class="container">
+
+<div class="container">
+<div class="row">
+<?php
+$query = new WP_Query(array(
+    'posts_per_page' => 3,
+    'category_name' => 'sfc-in-georgia', // this is the category SLUG
+));
+//echo "<pre>"; print_r($query->posts);
+if ( $query->have_posts() ) : while ( $query-> have_posts() ) : $query-> the_post(); 
+?>
+<div class="col-md-4">
+<div class="card p-2">
+<div class="mb-3">
+<a href="<?php the_permalink();  ?>"><?php the_post_thumbnail(''); ?></a>
+</div>
+
+<h3><a href="<?php the_permalink();  ?>"><?php the_title(); ?></a></h3>
+<?php the_excerpt(); ?>
+
+<small><?php the_author(); ?></small>
+
+
+<!-- <?php //the_permalink();  ?> -->
+</div>
+</div>
+<?php
+    endwhile;
+    wp_reset_postdata(); // this should be inside if - there is no need to rested postdata if the_post hasn’t been called.
+    endif; 
+?>
+</div>
+</div>
+
+<!-- <div  class="container">
         <section>
             <h3>What is SFC?</h3>
             <p>Structured Family Caregiving (SFC) is a Georgia Medicaid waiver program that allows eligible families to receive financial assistance for caring for loved ones with disabilities or chronic illnesses at home. It empowers families to provide quality care while their loved ones maintain independence and dignity.</p>

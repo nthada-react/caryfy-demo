@@ -24,15 +24,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Streamline SFC Care in Georgia with Caryfy</title>
-    <meta name="keywords" itemProp="keywords" content="georgia sfc ltss"/>
-    <meta name="description" content="long term service and support for sfc, Georgia sfc waiver program, structured family Care Waiver Program in Georgia, Georgia Medicaid sfc services, sfc waiver program eligibility in Georgia, Georgia sfc waiver providers, sfc services for disabled individuals in Georgia, Georgia Medicaid waiver programs for independent care, sfc support services in Georgia, Home care under sfc in Georgia, sfc benefits for Georgia residents">
+    <meta name="keywords" itemProp="keywords" content="Structured Family Caregiving Onboarding"/>
+    <meta name="description" content="SFC, Onboarding, Home Health Care, Georgia, Agency Owners, Administrators, Medicaid, Financial Assistance, Caregivers, Training, Support, Application Process">
     <!-- JSON LD Schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Streamline SFC Care in Georgia with Caryfy",
-      "description": "Caryfy offers streamlined management solutions for the Georgia Structured Family Caregiving (SFC) program. Simplify caregiver support and maximize reimbursement. Learn about Georgia SFC LTSS today.",
+      "name": "Structured Family Caregiving Onboarding",
+      "description": "SFC, Onboarding, Home Health Care, Georgia, Agency Owners, Administrators, Medicaid, Financial Assistance, Caregivers, Training, Support, Application Process",
       "url": "http://localhost/caryfy/",
       "mainEntity": {
         "@type": "Organization",
@@ -51,18 +51,4 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-	<header>
-    <?php $template_slug = get_page_template_slug(); ?>
-    <div class="logo">
-       <a href="#"> <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/caryfy-logo.png" alt="" /></a>
-    </div>
-	<h1 class="animated zoomIn">Streamline SFC Care in Georgia with Caryfy</h1>
-    <h2>Simplify Management, Improve Caregiver Support, Maximize Reimbursement</h2>
-	<div class="container">
-	<div class="videoSection">
-		<div class="videoWrapper">
-			<iframe class="responsive-iframe" src="https://www.youtube.com/embed/tkiXqA-QkDc?si=N9pltvZ8tKBxBwvX"></iframe>
-		</div>
-			</div>
-	</div>
-</header>
+

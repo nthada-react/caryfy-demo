@@ -131,3 +131,23 @@ main {
   padding: 15px;
   border-radius: 10px;
 }
+
+.card{
+  border-radius: 8px !important;
+}
+
+.card h3 a{
+  color: #00aad9;
+}
+
+.card  p{
+  margin-bottom: 15px;
+}
+
+.card small{
+  color: #999999;
+}
+
+.card  p a.more-link{
+  color: #ff8f3a;
+}
